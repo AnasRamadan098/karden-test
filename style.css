@@ -254,4 +254,12 @@ header .img-box a.website span {
         padding: 40px 30px 20px 0 !important;
     }
 }
+.whatsapp img {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 55px;
+    height:55px;
+    border-radius: 10px;
+}
 /* End Section */
