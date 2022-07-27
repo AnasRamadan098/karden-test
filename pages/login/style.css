@@ -145,7 +145,7 @@ header .img-box a span {
 
 @media (max-width:767px){ 
     header .img-box a {
-        font-size: 1.2em;
+        font-size: 1.2em !important;
     }
 }
 
