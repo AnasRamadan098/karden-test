@@ -261,5 +261,6 @@ header .img-box a.website span {
     width: 55px;
     height:55px;
     border-radius: 10px;
+    position: fixed;
 }
 /* End Section */
