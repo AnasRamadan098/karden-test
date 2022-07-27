@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="box">
+                <ul class="links">
+                    <li>
+                        <a class="active" href="#">الصفحة الرئيسية</a>
+                    </li>
+                    <li>
+                        <a href="#">من نحن</a>
+                    </li>
+                    <li>
+                        <a href="#">تصفح الحصص</a>
+                    </li>
+                    <li>
+                        <a href="#">التسجيل</a>
+                    </li>
+                    <li>
+                        <a href="#">الأسئلة الشائعة</a>
+                    </li>
+                </ul>
+                <div class="img-box">
+                    <a href="#">
+                     <div class="img">
+                     </div>
+                    </a>
+                     <a href="#" class="website">مَكِين <span>لِلتَّعلِيمْ</span></a>
+                 </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="box">
+                <div class="content">
+                    <h3>احجز معانا</h3>
+                <p>تفضل كرماً سجل بيانات طفلك واحجز معنا</p>
+                <div class="form">
+                    <form method="post" name="login-form"  action="mail.php">
+                        <input type="text" class="input" name="name" placeholder="اسم الطالب">
+                        <select class="input" name="age">
+                            <option class="input"> 4-7 سنوات </option>
+                            <option class="input"> 8-9 سنوات </option>
+                            <option class="input"> 9-13 سنوات </option>
+                            <option class="input"> 13-50 سنوات </option>
+                        </select>
+                        <input type="text" class="input"  name="phnumber" placeholder="رقم الهاتف">
+                        <select class="input" name="gender" >
+                            <option class="input">انثي</option>
+                            <option class="input">ذكر</option>
+                        </select>
+                        <button type="submit">اشترك</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
