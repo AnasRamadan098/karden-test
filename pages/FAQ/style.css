@@ -212,8 +212,9 @@ header .img-box a.website span {
 .whatsapp img {
     position: absolute;
     right: 20px;
-    top: 50%;
+    bottom: 20px;
     width: 55px;
     height:55px;
     border-radius: 10px;
+    position: fixed;
 }
